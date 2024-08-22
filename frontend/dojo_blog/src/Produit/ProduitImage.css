@@ -151,7 +151,7 @@ position: relative;
  align-items: center;
  justify-content: center;
  width: 90%;
- top: -4rem;
+ top: 4rem;
  gap: 2rem;
  padding: 30px;
  height: 200px;
@@ -169,20 +169,20 @@ position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     
     .nameprod{
         font-size: 20px;
         font-weight: bold;
         color:  rgb(145, 22, 22);
         margin-top: -10px;
-
     }
     .prixDegre{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 2rem;
-        margin-top: -30px;
+        gap: 3rem;
+        margin-top: -20px;
 
     }
     span{
