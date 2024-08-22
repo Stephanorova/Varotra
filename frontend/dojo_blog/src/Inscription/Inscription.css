@@ -1,0 +1,61 @@
+.inscription{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadrage{
+     padding: 30px;
+
+     width: 300px;
+     height: 400px;
+     border: 1px solid black;
+     border-radius: 10px;
+}
+
+.champeregistre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    input{
+        width: 250px;
+        height: 40px;
+        margin: 30px 0 0 0;
+        padding-left: 10px;
+        font-size: 15px;
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+
+        &&:focus{
+            outline: none;
+        }
+    }
+
+}
+
+.incriptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    
+}

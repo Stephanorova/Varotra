@@ -1,0 +1,12 @@
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    flex-direction: column;
+    color: green;
+
+    span{
+        color: grey;
+    }
+}

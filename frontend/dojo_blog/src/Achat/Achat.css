@@ -1,0 +1,161 @@
+.achat{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.achatdroite{
+    flex: 5;
+    width: 100%;
+    padding: 30px;
+ 
+   
+.listeProduitAchat{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+    .headertable{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+    .cadreproduit{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 7px 7px 1px rgba(0, 0, 0, 1);
+
+        .imageAchat{
+            width: 120px;
+            height: 200px;
+            border-radius: 5px;
+        }
+
+        .pourcent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .action{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            input{
+                width: 50px;
+                height: 25px;
+                padding-left: 40px;
+                font-weight: bold;
+                font-size: 16px;
+                
+                &&:focus{
+                    outline: none;
+                }
+            }
+          
+            p{
+                border: 1px solid black;
+                width: 20px;
+                margin-top: 14px;
+                height: 29px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.closeCart{
+    position: absolute;
+    left: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45px;
+    height: 40px;
+    color: black;
+    
+    &&:hover{
+        width: 45px;
+        height: 40px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.achatgauche{
+    flex: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 2rem;
+    margin: 190px 0 0 0;
+    position: sticky;    
+    
+    .payement{
+        position: fixed;
+        top: 12rem;
+    }
+    .PrixTotal{
+        display: flex;
+        gap: 2rem;
+        font-weight: bold;
+        position: fixed;
+        top: 17rem;
+
+
+        .cadrePrix{
+            width: 120px;
+            height: 40px;
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid black;
+        }
+     
+    }
+
+    .phrage{
+        position: fixed;
+        top: 21rem;
+    }
+
+    .buttonBas{
+        position: fixed;
+        top: 32rem;
+    }
+    .buttoAchat{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+         label{
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-style: 20px;
+            height: 50px;
+            background-color: rgb(255, 202, 27);
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+        }
+    }
+
+}

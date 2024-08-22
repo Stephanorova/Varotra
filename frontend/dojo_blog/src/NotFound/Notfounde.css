@@ -1,0 +1,11 @@
+.notfounde{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 200px;
+     flex-direction: column;
+
+     span{
+        color: red;
+     }
+}

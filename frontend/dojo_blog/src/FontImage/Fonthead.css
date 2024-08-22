@@ -1,0 +1,114 @@
+.font{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 3rem;
+    height: 98vh;
+   
+}
+.lettre{
+    margin-bottom: 100px;
+    box-shadow: 0px 1px 1000px 100px rgba(231, 240, 201, 0.76);
+    height: 0px;
+
+    i{
+        color: grey;
+        font-weight: bold;
+    }
+    h1{
+        color: rgb(165, 201, 6);
+        font-size: 40px;
+    }
+    h2{
+        color:rgb(145, 22, 22);
+        font-size: 30px;
+    }
+}
+
+
+.fontheade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+}
+    .image{
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 1px 1000px 100px rgba(71, 65, 3, 0.70);
+        margin-top: 50px;
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 5rem;
+     
+    }
+
+.ronde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 50px;
+
+.pourcentage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.moyen{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid maroon;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rhum{
+    font-size: 15px;
+    font-family: italic;
+    color: black;
+}
+   
+}
+
+@media (max-width:560px) {
+    
+    .image{
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 0;
+     
+    }
+
+    .ronde{
+
+        .pourcentage{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .moyen{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid maroon;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+}

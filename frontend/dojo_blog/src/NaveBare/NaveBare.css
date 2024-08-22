@@ -1,0 +1,148 @@
+.Navebare{
+    height: 30px;
+    padding: 0;
+    background: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 7px 7px 1px rgba(0, 0, 0, 0.1);
+    top: 0;
+    position: sticky;
+    z-index: 999;
+  
+}
+.droite{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #5a0b0b;
+
+}
+
+
+.gauche{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+
+
+    .icons{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+ 
+        .Inscrire{
+ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            height: 0px;
+
+        }
+            .select{
+                border: none;
+                background-color: white;
+                cursor: pointer;
+            }
+        .achat{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            height: 0px;
+            box-shadow: 0px 1px 1000px 100px rgba(71, 65, 3, 0.5);
+        }
+
+    }
+    .liste{
+        display: flex;
+        position: relative;
+        top: -1rem;
+        left: -3rem;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: tomato;
+        cursor: pointer;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:560px) {
+    .Navebare{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .droite{
+
+       position: relative;
+       top: 5rem;
+       
+       img{
+        width: 130px;
+        margin-left: -25px;
+       }
+
+     }
+     .centre{
+
+        position: relative;
+        top: -3rem;
+
+        .recherche{
+            width: 340px;
+            border-radius: 5px;
+        }
+
+     }
+     
+     .gauche{
+
+        position: relative;
+        top: -20rem;
+        left: 6rem;
+
+
+        .icons{
+            display: flex;
+            gap: 1.8rem;
+            align-items: center;
+            position: relative;
+            left: 2rem;
+            justify-content: center;
+        }
+        .Inscrire{
+            display: flex;
+            flex-direction: column;
+
+            span{
+                display: none;
+            }
+        }
+        .achat{
+            span{
+                display: none;
+            }
+
+            .liste{
+                position: relative;
+                left: -1rem;
+                top: -0.2rem;
+
+            }
+        }
+     }
+}
