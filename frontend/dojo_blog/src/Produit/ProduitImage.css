@@ -127,6 +127,7 @@
 .imagedroites{
     flex: 2;
     width: 100%;
+    margin-left: 70px;
 }
 .imagedroite{
     width: 250px;

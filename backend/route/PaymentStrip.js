@@ -13,7 +13,7 @@ router.post ('/create-checkout-session', async (req,res)=>{
     return(
       {
         price_data: {
-          currency: 'Ar',
+          currency: '$',
           product_data: {
             Nom: item.Nom,
             image: item.image,
