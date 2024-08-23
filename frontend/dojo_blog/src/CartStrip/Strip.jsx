@@ -22,15 +22,15 @@ const Strip = () => {
       history.push("/logine")
   }
 
-  const handleAcheter = ()=>{
-    axios.post(`${url}create-checkout-session`,{
-          Itemes : cart.cartIteme,
-          UserId: user._id
+  const handleAcheter = ()=>{    
+     axios.post(`${url}create-checkout-session`,{
+           Itemes : cart.cartIteme,
+           UserId: user._id
     }).then((res)=>{
-      if (res.data.url) {
-        window.location.href = res.data.url
-      }
-    }).catch((error)=> console.log(error.message))
+       if (res.data.url) {
+         window.location.href = res.data.url
+       }
+     }).catch((error)=> console.log(error.message))
   }
 
   return (
